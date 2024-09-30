@@ -1,0 +1,42 @@
+#cards-apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 20px 0;
+
+    .cartao {
+        width: 260px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        background-color: rgb(65, 65, 65);
+        border-radius: 1rem;
+        padding: 1rem;
+        color: rgb(236, 236, 236);
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            background-color: #7900ff;
+            box-shadow: 0 0 0 3px #270053c7;
+            scale: 1.02;
+
+            i {
+                transform: rotate3d(0, 0, 1, -40deg);
+            }
+        }
+
+        i {
+            font-size: 2.5rem;
+            transition: all .5s;
+        }
+
+        .text-card {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+}
