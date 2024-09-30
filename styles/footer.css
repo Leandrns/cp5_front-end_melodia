@@ -1,0 +1,53 @@
+img{
+    height: 100px;
+    position: relative;
+}
+
+body{
+    height: 600px;
+    background-color: #121212;;
+}
+
+div{
+    color: rgb(174, 174, 174);
+}
+
+a{
+    margin: 10px;
+}
+
+#instagram:hover{
+    color: #7900ff;
+}
+
+#facebook:hover {
+    color: #7900ff;
+}
+
+#youtube:hover {
+    color: #7900ff;;
+}
+
+h4:hover{
+    color: #7900ff;
+}
+
+label:hover{
+    color: #7900ff;
+}
+
+button:hover{
+    color: #7900ff;
+}
+
+h3:hover{
+    color: #7900ff;
+}
+
+li:hover{
+    color: #7900ff;
+}
+
+p:hover{
+    color: #7900ff;
+}
