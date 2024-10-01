@@ -45,11 +45,13 @@
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-  margin-top: 20px;
+  
+  padding: 20px 20px 0px 20px;
+  
 }
 .texto-img img {
   max-width: 30vw;
-  height: 50vh;
+  height: 45vh;
   border-radius: 8px;
 }
 
@@ -63,13 +65,13 @@
   max-width: 1200px;
   border-radius: 8px;
   margin-bottom: 20px;
-  background: linear-gradient(45deg, #7900ff, #222021);
+  background: linear-gradient(45deg, #7900ff, #270101);
   color: white;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
 }
 .cardfunc:hover {
-  background: linear-gradient(45deg, #7900ff, #ff007b);
+  background: linear-gradient(45deg, #7900ff, #9b0505);
   transform: scale(1.02);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
 }
@@ -98,7 +100,7 @@
 
     .texto-img img {
         max-width: 80%;
-        height: 20vh;
+        height: 25vh;
         order: 1;
     }
 
