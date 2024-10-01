@@ -15,8 +15,15 @@
 
 #funcionalidades h2 {
     font-size: 2.5em;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
+}
+
+.linha {
+    width: 30vw; /* Largura da linha */
+    height: 3px;  /* Altura da linha */
+    background-color: #7900ff; /* Cor da linha */
+    margin: 0 auto 30px auto; /* Centraliza e adiciona espaçamento */
 }
 
 .texto-img {
@@ -28,8 +35,9 @@
 }
 
 .texto-img img {
-    max-width: 40vw;
-    height: auto;
+    max-width: 30vw;
+    height: 50vh;
+    
     border-radius: 8px;
 }
 
@@ -60,6 +68,15 @@
     text-align: center;
 }
 
+#funcionalidades h3::after {
+    content: '';
+    display: block;
+    width: 50px;   
+    height: 3px;   
+    background-color: #ffffff; 
+    margin: 10px auto;
+}
+
 #funcionalidades p {
     font-size: 1.2em;
     text-align: start;
@@ -83,12 +100,13 @@
     }
 
     .cardfunc {
-        width: 50vw; 
+        width: 80vw; 
         padding: 15px;
     }
 
     .texto-img img {
         max-width: 80%;
+        height: 20vh;
         order: 1;
     }
 
@@ -98,7 +116,8 @@
     }
 
     #funcionalidades p {
-        text-align: center;
+        font-size: 1.0em;
+        text-align: start;
     }
 }
 
@@ -112,7 +131,7 @@
     }
 
     .cardfunc {
-        width: 60vw; 
+        width: 70vw; 
         padding: 15px;
     }
 
