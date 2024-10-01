@@ -4,9 +4,10 @@
     --color-primary-1: #000000;
     --color-primary-2: #240fe6;
     --color-primary-3: #361ca7;
-    --color-primary-4: #1815b6;
+    --color-primary-4: #7900ff;
 
     --color-neutral-0: #fff;
+    --color-neutral-1: #ececec;
 }
 
 html {
@@ -78,13 +79,13 @@ body {
 }
 
 .section-title {
-    color: var(--color-primary-4);
+    color: var(--color-neutral-1);
     font-size: 1.563rem;
 }
 
 .section-subtitle {
     font-size: 2.1875rem;
-    color: var(--color-primary-4);
+    color: var(--color-neutral-1);
 } 
 
 .btn-default {
