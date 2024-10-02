@@ -114,7 +114,7 @@ nav .toggle_btn {
 
 .titulo {
   color: #ececec;
-  font-size: 90px;
+  font-size: 3em;
   padding: 40px 35px 0 35px; }
 
 .descricao {
@@ -141,7 +141,9 @@ nav .toggle_btn {
     display: block; }
   .melodia {
     width: 100%;
-    padding: 0 20px 0 20px; } }
+    padding: 0 20px 0 20px; } 
+    .titulo {
+      font-size: 2.0em; }}
 
 @media (max-width: 576px) {
   .menu_dropdown {
@@ -150,6 +152,6 @@ nav .toggle_btn {
 
 @media (max-width: 580px) {
   .titulo {
-    font-size: 50px; }
+    font-size: 1.6em; }
   .descricao {
     width: 300px; } }
