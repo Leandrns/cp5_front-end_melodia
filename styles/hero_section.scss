@@ -16,11 +16,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, $roxo-melodia, $preto-melodia);
+    background-image: linear-gradient(0deg, $roxo-melodia, $preto-melodia); /* Gradient */
+    background-color: rgba(0, 0, 0, 0.3); /* Cor de fundo com transparência */
     position: sticky;
     top: 0;
     height: 130px;
     z-index: 10;
+    transition: background-color 0.3s ease; /* Transição apenas para background-color */
 }
 
 li{
