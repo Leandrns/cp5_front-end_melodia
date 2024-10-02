@@ -1,9 +1,9 @@
 :root {
     --color-primary-1: #000000;
-    --color-primary-2: #240fe6;
-    --color-primary-3: #361ca7;
-    --color-primary-4: #1815b6;
+    --color-primary-3: #590dd4;
+    --color-primary-4: #7900ff;
     --color-neutral-0: #fff;
+    --color-neutral-1: #ececec;
 }
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: var(--color-primary-1);
+    background-color: rgb(36, 36, 36) !important;
 }
 
 #testimonials {

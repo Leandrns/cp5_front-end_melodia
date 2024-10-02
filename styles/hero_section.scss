@@ -30,7 +30,8 @@ li{
 .item_opcoes{
     text-decoration: none;
     color: $texto-melodia;
-    transition: all .2s;
+    padding: 10px;
+    transition: all .3s ease-in-out;
         &:hover {
             background-color: $roxo-melodia;
             border-radius: 20px;
@@ -130,7 +131,34 @@ nav .toggle_btn {
     position: absolute;
 }
 
-@media(max-width: 800px) {
+.hero_pai{
+    display: flex;
+    flex-wrap: wrap;
+    color: $texto-melodia;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    color: $texto-melodia;
+    font-size: 90px;
+    padding: 40px 35px 0 35px;
+}
+
+.descricao{
+    width: 500px;
+}
+
+.hero_content{
+    font-size: 17px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding: 30px 60px 30px 60px;
+}
+
+@media(max-width: 890px) {
 
     nav{
         gap: 0;
@@ -148,6 +176,11 @@ nav .toggle_btn {
 
     .menu_dropdown.open {
         display: block;
+    }
+
+    .melodia{
+        width: 100%;
+        padding: 0 20px 0 20px;
     }
 }
 
