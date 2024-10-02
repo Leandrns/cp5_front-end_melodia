@@ -149,6 +149,9 @@ nav .toggle_btn {
 
 .descricao{
     width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hero_content{
@@ -157,7 +160,7 @@ nav .toggle_btn {
     justify-content: center;
     display: flex;
     gap: 50px;
-    padding: 30px 60px 30px 60px;
+    padding: 30px;
 }
 
 @media(max-width: 890px) {

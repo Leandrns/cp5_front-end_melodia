@@ -119,7 +119,10 @@ nav .toggle_btn {
   padding: 40px 35px 0 35px; }
 
 .descricao {
-  width: 500px; }
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .hero_content {
   font-size: 17px;
@@ -127,7 +130,7 @@ nav .toggle_btn {
   justify-content: center;
   display: flex;
   gap: 50px;
-  padding: 30px 60px 30px 60px; }
+  padding: 30px; }
 
 @media (max-width: 890px) {
   nav {

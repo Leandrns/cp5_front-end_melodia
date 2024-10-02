@@ -23,7 +23,7 @@ footer {
 
 .footer_content{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer-link {
@@ -31,18 +31,11 @@ footer {
 }
 
 ul.footer-list {
-  padding: 15px 50px 15px 50px;
+  padding: 15px 0px;
 }
 
 div#footer_news {
   padding: 15px 50px 15px 50px;
-}
-
-#footer_content {
-  background-color: #171717;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 3rem 3.5rem;
 }
 
 #footer_contacts {
@@ -76,9 +69,12 @@ div#footer_news {
 .footer-list {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 2rem;
   list-style: none;
+  justify-content: space-around;
 }
+
+
 
 .footer-list .footer-link {
   color: whitesmoke;
@@ -92,6 +88,7 @@ div#footer_news {
 #footer_copyright {
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 0.9rem;
   padding: 1rem;
   font-weight: 100;
@@ -99,15 +96,38 @@ div#footer_news {
 }
 
 .tela-contato{
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
-@media screen and (min-width: 992px) {
-
+.centro{
+  display: flex;
+  justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+.btn-dois {
+  border: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary-3);
+  color: var(--color-neutral-1);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
 
+.btn-dois:hover {
+  background-color: var(--color-primary-4);
+}
+
+@media screen and (max-width: 980px) {
+  ul.footer-list {
+    padding: 15px 25px 0px 0px;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -117,5 +137,13 @@ div#footer_news {
   }
   .img_box{
     height: auto;
+  }
+  .footer_content{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  ul.footer-list {
+    padding: 15px 0px;
   }
   }
