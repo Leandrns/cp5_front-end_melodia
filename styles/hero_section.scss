@@ -190,3 +190,12 @@ nav .toggle_btn {
         width: unset;
     }
 }
+
+@media(max-width: 580px) {
+    .titulo{
+        font-size: 50px;
+    }
+    .descricao{
+        width: 300px;
+    }
+}

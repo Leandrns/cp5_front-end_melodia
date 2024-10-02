@@ -146,3 +146,9 @@ nav .toggle_btn {
   .menu_dropdown {
     left: 2rem;
     width: unset; } }
+
+@media (max-width: 580px) {
+  .titulo {
+    font-size: 50px; }
+  .descricao {
+    width: 300px; } }
