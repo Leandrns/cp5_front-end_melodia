@@ -114,7 +114,8 @@ nav .toggle_btn {
 
 .titulo {
   color: #ececec;
-  font-size: 90px;
+  font-size: 4em;
+  text-align: center;
   padding: 40px 35px 0 35px; }
 
 .descricao {

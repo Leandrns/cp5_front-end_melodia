@@ -6,17 +6,6 @@ footer {
   padding-right: 4rem;
 }
 
-.corte{
-  left: 0;
-  right: 0;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIwIDE1MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggZD0iTTAgMGgxOTIwdjFMMCAxNTB6IiBmaWxsPSIjRkZGRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=);
-  width: 100%;
-  height: 148px;
-  background-size: 100% 148px;
-}
-
 .marketing{
   align-items: center;
   box-sizing: border-box;
@@ -27,13 +16,14 @@ footer {
   padding-bottom: 1.5rem;
 }
 
-img{
-  height: 200px;
-  position: relative;
+.img_box{
+  width: 100%;
+  height: 120px;
 }
 
 .footer_content{
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-link {
@@ -49,7 +39,7 @@ div#footer_news {
 }
 
 #footer_content {
-  background-color: #121212;
+  background-color: #171717;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
@@ -65,31 +55,22 @@ div#footer_news {
   gap: 2rem;
 }
 
-i{
-  color: whitesmoke;
-}
 
 #footer_social_media .footer-link {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 4.0rem;
-    width: 8.0rem;
-    color: #7900ff;
-    border-radius: 50%;
-    transition: all 0.4s;
-}
-#instagram:hover{
-  color: #7900ff;
+    color: #ffffff;
+    font-size: 20px;
 }
 
-#facebook:hover {
-  color: #7900ff;
+.footer-link i {
+  transition: all 0.4s;
 }
 
-#youtube:hover {
+.footer-link i:hover{
   color: #7900ff;
+  scale: 1.5;
 }
 
 .footer-list {
@@ -108,46 +89,6 @@ i{
   color: #7900ff;
 }
 
-#footer_news {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-#footer_news p {
-  color: whitesmoke;
-}
-
-#input_group {
-  display: flex;
-  align-items: center;
-  background-color: #121212;
-  border-radius: 4px;
-}
-
-#input_group input {
-  all: unset;
-  padding: 0.75rem;
-  width: 100%;
-  background-color: whitesmoke;
-}
-
-#input_group button {
-  background-color: #7900ff;
-  border: none;
-  color: whitesmoke;
-  padding: 0px 1.25rem;
-  font-size: 1.125rem;
-  height: 100%;
-  border-radius: 0px 4px 4px 0px;
-  cursor: pointer;
-  transition: all 0.4s;
-}
-
-#input_group button:hover {
-  opacity: 0.8;
-}
-
 #footer_copyright {
   display: flex;
   justify-content: center;
@@ -156,42 +97,25 @@ i{
   font-weight: 100;
   border-top: 1px solid
 }
+
+.tela-contato{
+  padding-bottom: 10px;
+}
+
 @media screen and (min-width: 992px) {
-  .footer_content{
-      justify-content: space-around;
-  }
+
 }
 
 @media screen and (max-width: 768px) {
-  .footer_content{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-  }
-  #logo{
-      padding-bottom: 15px;
-  }
+
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 680px) {
   .marketing{
-      display: flex;
-      flex-direction: column;
-  }
-  .footer_content{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    flex-direction: column;
   }
   .img_box{
-      background-color: #7900ff;
-      position: relative;
-      border-radius: 50%;
-      padding: 13px;
-      margin-bottom: 15px;
+    height: auto;
   }
-  .img_box img{
-      margin-top: -10px;
   }
-  #logo{
-      padding-bottom: 0px;
-  }
-}
