@@ -134,7 +134,7 @@ nav .toggle_btn {
 
 .hero_pai{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     color: $texto-melodia;
     align-items: center;
     justify-content: center;

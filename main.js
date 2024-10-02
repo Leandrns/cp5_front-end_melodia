@@ -69,3 +69,21 @@ $(document).ready(function() {
         distance: '20%'
     })
 });
+
+window.addEventListener('scroll', function() {
+    const menu = document.getElementById('header');
+    
+    // Calcula o valor da opacidade conforme o scroll
+    let scrollValue = window.scrollY;
+
+    if (scrollValue > 100) {
+        // Quando o scroll for maior que 100px, diminui a opacidade
+        menu.style.background = 'linear-gradient(0deg, rgba(121, 0, 255, 0.8), rgba(0, 0, 0, 0.8))';
+    } else {
+        // Mantém a opacidade inicial, e ajusta conforme o scroll
+        let opacity = 0.2 + scrollValue / 500; // Aumenta a opacidade gradualmente
+        opacity = opacity > 0.8 ? 0.8 : opacity; // Limita a opacidade em 0.8
+        menu.style.background = `linear-gradient(0deg, rgba(121, 0, 255, ${opacity}), rgba(0, 0, 0, ${opacity}))`;
+    }
+});
+
