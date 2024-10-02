@@ -1,9 +1,7 @@
 :root {
     --color-primary-1: #000000;
-    --color-primary-2: #240fe6;
-    --color-primary-3: #361ca7;
+    --color-primary-3: #590dd4;
     --color-primary-4: #7900ff;
-
     --color-neutral-0: #fff;
     --color-neutral-1: #ececec;
 }
@@ -54,7 +52,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: var(--color-neutral-0);
+    background-color: var(--color-neutral-1);
     padding: 12px;
     border-radius: 12px;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
@@ -65,11 +63,12 @@ body {
     height: 100px;
     border-radius: 100%;
     object-fit: cover;
+    
 }
 
 .feedback-content p {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 .feedback-content p span {
@@ -92,6 +91,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--color-primary-3);
+    color: var(--color-neutral-1);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -101,7 +101,7 @@ body {
 }
 
 .btn-default:hover {
-    background-color: var(--color-primary-2);
+    background-color: var(--color-primary-4);
 }
 
 @media screen and (max-width: 1170px) {
