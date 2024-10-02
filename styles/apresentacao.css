@@ -26,7 +26,7 @@
   scale: 1.02;
 }
 #cards-apresentacao .cartao:hover i {
-  transform: rotate3d(0, 0, 1, -40deg);
+  transform: rotate3d(0, 0, 1, -20deg);
 }
 #cards-apresentacao .cartao i {
   font-size: 2.5rem;

@@ -15,16 +15,15 @@ body {
 }
 
 #testimonials {
-    min-height: calc(100vh - 91px);
+    max-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 48px;
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    padding: 28px 8%;
+    padding: 10px 30px 55px 30px;
 }
 
 #testimonial_chef {
